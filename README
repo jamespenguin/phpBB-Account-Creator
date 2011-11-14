@@ -1,0 +1,5 @@
+This project allows you to automate the process of registering/validating accounts for a phpBB forum board.
+
+To automate CAPTCHA solving using http://decaptcher.com, edit the dc_username and dc_password variables in phpBB.py
+
+NOTE: You may need to adjust the create_account function in phpBB.py if the forum you're trying to register accounts on uses special registration fields.
